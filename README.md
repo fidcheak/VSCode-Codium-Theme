@@ -5,7 +5,7 @@ Minimal and clean VS Code setup focused on readability and distraction-free codi
 ## Preview
 
 <p align="center">
- <img width="200px" src="Screenshot_1.png" alt="qr"/>
+ <img width="1934px" hight="1148px" src="Screenshot_1.png" alt="qr"/>
 </p>
 
 - Dark theme

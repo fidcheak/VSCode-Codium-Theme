@@ -64,8 +64,9 @@ Minimal and clean VS Code setup focused on readability and distraction-free codi
     "workbench.editor.decorations.colors": false,
     "workbench.editor.decorations.badges": false
 }
+```
 
-Install
+## Install
 
     Open VS Code
 

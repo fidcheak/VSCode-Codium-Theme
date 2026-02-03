@@ -68,10 +68,7 @@ Minimal and clean VS Code setup focused on readability and distraction-free codi
 
 ## Install
 
-    Open VS Code
-
-    Open Settings (JSON)
-
-    Paste the settings
-
-    Restart VS Code
+1) Open VS Code
+2) Open Settings (JSON)
+3) Paste the settings
+4) Restart VS Code

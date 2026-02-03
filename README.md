@@ -8,14 +8,6 @@ Minimal and clean VS Code setup focused on readability and distraction-free codi
  <img width="1934px" hight="1148px" src="Screenshot_1.png" alt="qr"/>
 </p>
 
-- Dark theme
-- No minimap
-- No breadcrumbs
-- No status bar
-- Clean explorer
-- Smooth cursor animation
-- JetBrains Mono with ligatures
-
 ## Requirements
 
 - Visual Studio Code

@@ -11,7 +11,20 @@ Minimal and clean VS Code setup focused on readability and distraction-free codi
 ## Requirements
 
 - Visual Studio Code
-- Font: **JetBrains Mono**
+- Font: [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/)
+
+## Included Extensions
+
+- Atom One Dark Theme **(Theme)**
+- Symbols **(Icons Pack)**
+- Auto Rename Tag
+- Code Spell Checker
+- Discord Presence
+- Fluent Icons
+- indent-rainbow
+- Path Intellisense
+- Prettier – Code formatter
+- Tailwind CSS IntelliSense
 
 ## Settings
 

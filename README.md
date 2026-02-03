@@ -1,2 +1,76 @@
-# VSCode-Codium-Theme
-Minimal VS Code configuration focused on readability, smooth editing, and a distraction-free interface. / Минималистичная конфигурация VS Code с упором на читаемость, плавную работу и отсутствие визуального шума.
+# VS Code Settings
+
+Minimal and clean VS Code setup focused on readability and distraction-free coding.
+
+## Preview
+
+- Dark theme
+- No minimap
+- No breadcrumbs
+- No status bar
+- Clean explorer
+- Smooth cursor animation
+- JetBrains Mono with ligatures
+
+## Requirements
+
+- Visual Studio Code
+- Font: **JetBrains Mono**
+
+## Settings
+
+```jsonc
+{
+    // Window
+    "window.zoomLevel": 2,
+
+    // Theme & Icons
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "symbols",
+    "workbench.productIconTheme": "fluent-icons",
+    "symbols.hidesExplorerArrows": false,
+
+    // Font
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
+    "editor.fontLigatures": true,
+
+    // Cursor
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // Editor
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+
+    // UI
+    "workbench.statusBar.visible": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+
+    // Explorer
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 20,
+    "scm.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Decorations
+    "search.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "workbench.editor.decorations.colors": false,
+    "workbench.editor.decorations.badges": false
+}
+
+Install
+
+    Open VS Code
+
+    Open Settings (JSON)
+
+    Paste the settings
+
+    Restart VS Code

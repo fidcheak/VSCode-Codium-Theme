@@ -30,48 +30,54 @@ Minimal and clean VS Code setup focused on readability and distraction-free codi
 
 ```jsonc
 {
-    // Window
-    "window.zoomLevel": 2,
+  "telemetry.telemetryLevel": "off",
+  "redhat.telemetry.enabled": false,
 
-    // Theme & Icons
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.iconTheme": "symbols",
-    "workbench.productIconTheme": "fluent-icons",
-    "symbols.hidesExplorerArrows": false,
+  // Window
+  "window.zoomLevel": 2,
+  "window.menuBarVisibility": "compact",
 
-    // Font
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 1.6,
-    "editor.fontLigatures": true,
+  // Theme & Icons
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "symbols.hidesExplorerArrows": false,
 
-    // Cursor
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
+  // Font
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
 
-    // Editor
-    "editor.mouseWheelZoom": true,
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
+  // Cursor
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
 
-    // UI
-    "workbench.statusBar.visible": false,
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
+  // Editor
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
 
-    // Explorer
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.tree.indent": 20,
-    "scm.compactFolders": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
+  // UI
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "http.systemCertificatesNode": true,
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
 
-    // Decorations
-    "search.decorations.badges": false,
-    "git.decorations.enabled": false,
-    "workbench.editor.decorations.colors": false,
-    "workbench.editor.decorations.badges": false
+  // Explorer
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 20,
+  "scm.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Decorations
+  "search.decorations.badges": false,
+  "git.decorations.enabled": false,
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.decorations.badges": false,
 }
 ```
 
